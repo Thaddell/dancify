@@ -13,8 +13,9 @@ Die Zuordnung „Song → Tanz“ passiert über die Datei `tanz-mapping.csv`.
 - Ein Spotify-Account
 - Spotify Developer App (Client ID / Client Secret / Redirect URI)
 
-Python-Pakete (aus dem Code ersichtlich):
-- `spotipy`, `pandas`, `screeninfo` , `tkinter` 
+Python-Pakete:
+- `spotipy`, `pandas`, `screeninfo` , `tkinter` `openpyxl` , `reportlab`
+
 
 ## 🔑 Spotify API einrichten
 1. Erstelle im Spotify Developer Dashboard eine App und notiere:
@@ -88,4 +89,5 @@ Der Tanzstil wird in der Anzeige groß und in Großbuchstaben dargestellt.
 
 
 Viel Spaß mit der Software, schickt mir gern Fotos von Euren Veranstaltungen und fügt gerne neue Features (am liebsten als PR) ein.
+
 

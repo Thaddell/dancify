@@ -56,6 +56,15 @@ Falls Spotify/CSV gerade nicht passt:
 2. 🧾 Tanzstil aus der Liste doppelklicken oder „Auswahl übernehmen“.
 3. ⌨️ Alternativ: Freitext eingeben („Freitext übernehmen“).
 4. 🛑 „Overwrite beenden“ beendet den Modus.
+5. 
+## 🔁 „Nächster Tanz“ / Queue / Playlist-Fallback
+Die App kann den nächsten Track ermitteln:
+Standard: aus der Spotify Queue.
+Optional: Playlist-Fallback (wenn Queue nicht verfügbar ist oder du eine feste Reihenfolge brauchst).
+
+Playlist-Fallback setzen
+In den Einstellungen bei „Playlist Fallback ID/URL/URI“ eine Playlist-ID/URL/URI eintragen.
+„Übernehmen“ klicken.
 
 ## ➕ Neue Lieder hinzufügen (Mapping erweitern) 🎵➡️🩰
 
@@ -70,4 +79,13 @@ Die Zuordnung passiert in `tanz-mapping.csv` mit diesen Spalten:
 
 My Song Title,My Artist,Cha-Cha-Cha
 
+3. Speichere die Datei und starte das Anzeigeprogramm neu.
+
+### Hinweise:
+Wenn ein Track nicht in der CSV ist, bleibt die Anzeige beim letzten gültigen Stand (es wird nicht „leer“).
+Der Tanzstil wird in der Anzeige groß und in Großbuchstaben dargestellt.
+
+
+
 Viel Spaß mit der Software, schickt mir gern Fotos von Euren Veranstaltungen und fügt gerne neue Features (am liebsten als PR) ein.
+
